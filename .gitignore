@@ -1,1 +1,29 @@
 .vscode
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+*.tfvars
+!*.tfvars.example
+
+# Ansible
+*.retry
+
+# Editor / OS
+.DS_Store
+*.swp
+*.swo
+*.DS_Store
+*/*.DS_Store
+*/*/*.DS_Store
+*/*/*/.DS_Store
+*/*/*/*/.DS_Store
+*/*/*/*/*/.DS_Store
+*/*/*/*/*/*/.DS_Store
+*/*/*/*/*/*/*/.DS_Store
+*/*/*/*/*/*/*/*/.DS_Store
+

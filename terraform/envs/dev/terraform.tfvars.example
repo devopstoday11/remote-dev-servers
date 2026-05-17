@@ -1,0 +1,11 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is gitignored.
+# In CI, these values come from GitHub Actions Variables and are passed via -var.
+
+project_id  = "remote-dev-servers-prod"
+region      = "us-central1"
+name_prefix = "remote-dev"
+
+# Optional overrides (defaults shown):
+# subnet_cidr      = "10.0.0.0/24"
+# enable_flow_logs = false
+# nat_log_filter   = "ERRORS_ONLY"
